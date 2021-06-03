@@ -7,11 +7,23 @@ html, body {
   height: 100%;
 }
 
-#clock {
+#box {
   text-align: center;
   position: relative;
-  top: 50%;
+  top: 200px;
+  height: 400px;
+  width: 400px;
+  margin-left: 40%;
   font-family: 'Libre Baskerville', serif;
   font-size: 5rem;
-  margin-top: -2.5rem;
+  border: 20px solid #000;
+  border-radius: 100px;
+}
+
+#clock { 
+  text-align: center;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+  margin-top: 37%;
 }
